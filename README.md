@@ -10,6 +10,9 @@
 5. Run `php artisan key:generate` to generate app key
 6. Run `php artisan serve` and the application should be hosted http://localhost:8000/
 
+## Creating New Controllers
+
+`php artisan make:controller CONTROLLER_NAME`
 
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
