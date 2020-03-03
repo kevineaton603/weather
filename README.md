@@ -1,3 +1,17 @@
+# Weather
+
+## Set-Up
+
+0. Download & Install [Composer](https://getcomposer.org/download/)
+1. Download & Install your favorite stack software [XAMPP](https://www.apachefriends.org/download.html) [WAMP](http://www.wampserver.com/en/) [MAMP](https://www.mamp.info/en/windows/)
+2. Clone the Repository `git clone https://github.com/kevineaton603/weather.git` in the `www`, `htdocs` or `html` depending on environment. 
+3. Run `composer install` in the root directory. This will download all your dependencies.
+4. Add `.env` file. There is an example in the boilerplate code.
+5. Run `php artisan key:generate` to generate app key
+6. Run `php artisan serve` and the application should be hosted http://localhost:8000/
+
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
