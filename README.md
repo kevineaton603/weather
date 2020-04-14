@@ -14,6 +14,10 @@
 
 `php artisan make:controller CONTROLLER_NAME`
 
+## Possible Implementations
+
+[Using a Package](https://laravel-news.com/use-laravel-geoip-to-determine-users-geographical-location)
+
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 

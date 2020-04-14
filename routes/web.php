@@ -11,8 +11,23 @@
 |
 */
 
-Route::get('/', 'IndexController@index');
-
-Route::get('/welcome', function () {
-    return view('welcome');
+/**
+ * Routes can be closures that return raw HTML
+ */
+Route::get('/example', function() {
+    return "<h1>This is an example</h1>";
 });
+
+/**
+ * Routes can be closures that return views
+ */
+Route::get('/about', function () {
+    return view('pages.about');
+});
+
+/**
+ * Most Commonly routes return a function from
+ * a controller class that keeps track of the logic
+ * of the application.
+ */
+Route::get('/', 'IndexController@index');
