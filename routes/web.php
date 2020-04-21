@@ -30,4 +30,7 @@ Route::get('/about', function () {
  * a controller class that keeps track of the logic
  * of the application.
  */
-Route::get('/', 'IndexController@index');
+Route::get('/', 'PagesController@index');
+
+Route::get('/cookie/set', 'CookieController@setCookie');
+Route::get('/cookie/get', 'CookieController@getCookie');

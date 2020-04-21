@@ -17,6 +17,8 @@
 ## Possible Implementations
 
 [Using a Package](https://laravel-news.com/use-laravel-geoip-to-determine-users-geographical-location)
+[error](https://artisansweb.net/laravel-geoip-library-find-out-geolocation-using-ip-address/)
+[Weather-Icons](https://erikflowers.github.io/weather-icons/)
 
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
